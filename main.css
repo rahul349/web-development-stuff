@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    pading:0px;
+    background:white;
+    font-family: 'lora',serif;
+}
+
+header{
+    height:70px;
+    width:100%;
+    background-color: cornflowerblue;
+
+    
+}
+
+header .logo{
+    float:left;
+   
+    height:inherit;
+    padding:0px;
+    margin-bottom:8px;
+    padding-left:8px;
+
+}
+
+header ul{
+    float:right;
+    list-style: none;
+    
+    padding:0px;
+    margin:0px;
+
+}
+
+header ul li{
+    float:left;
+    position:relative;
+    padding:21px;
+    margin:0px;
+    height:70px;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+header ul li ul{
+    position: absolute;
+    right:0px;
+    top:70px;
+    width:180px;
+    display:none;
+    
+    
+}
+
+header ul li:hover ul{
+    display:block;
+    background-color: cadetblue;
+}
+
+header ul li ul li{
+    padding:5px;
+    width:100%;
+    
+}
+
+header ul li ul li a{
+    padding:5px;
+    
+   
+}
+
+header ul li:hover{
+    background:rgb(11, 50, 124);
+    transition:1s;
+    height:70px;
+}
+
+/* post slider*/
+
+.postslider{
+    border:1px solid red;
+}
+
+.postslider .postwrapper{
+    border:1px dashed red;
+    width:80%;
+    height:400px;
+    margin:0 auto;
+}
+
+.postslider .postwrapper .post{
+    background-color: crimson;
+    
+    height:200px;
+    width:250px;
+    
+    display:inline-block;
+}
